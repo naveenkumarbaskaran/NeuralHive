@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "neuralhive"
+version = "0.3.0"
+description = "Multi-agent orchestration framework with supervisor, router, and consensus topologies."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [{name = "Naveen Kumar Baskaran"}]
+keywords = ["multi-agent", "orchestration", "llm", "supervisor", "swarm"]
+dependencies = []
+
+[project.optional-dependencies]
+llm = ["litellm>=1.30"]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
