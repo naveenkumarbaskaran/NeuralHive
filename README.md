@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="NeuralHive" width="700">
+
 # 🧠 NeuralHive
 
 **Multi-Agent Orchestration Framework — Supervisor, Router, and Swarm Topologies**
